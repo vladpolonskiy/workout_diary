@@ -17,8 +17,7 @@ You can add/remove activities. Adding new activities should come from exercise l
 
 ## Day page
 - table:
-| Exercise      | Weight: reps  | +
-| ------------- |:-------------:|
+| Exercise      | Weight: reps  | (+)
 (extended second column - depends of amount of sets)
 - Add button
 - Notes button
