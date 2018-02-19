@@ -23,7 +23,8 @@ You can add/remove activities. Adding new activities should come from exercise l
 - Notes button
 
 
-Clicking on add button trigger exercises modal to choose from
+Clicking on add button trigger exercises modal to choose from.
+Clicking on notes button will lead you to notes page.
 
 
 ## Notes page
