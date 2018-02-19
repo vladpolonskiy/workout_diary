@@ -4,6 +4,8 @@
   "description": "App for getting accounted of your training system and overall gym progress",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config ./webpack.dev.js",
+    "start": "npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,31 @@
   "bugs": {
     "url": "https://github.com/vladpolonskiy/workout_diary/issues"
   },
-  "homepage": "https://github.com/vladpolonskiy/workout_diary#readme"
+  "homepage": "https://github.com/vladpolonskiy/workout_diary#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "config": "^1.29.4",
+    "css-loader": "^0.28.9",
+    "eslint": "^4.18.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-import-resolver-webpack": "^0.8.4",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-vue": "^4.2.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.20.2",
+    "vue-loader": "^14.1.1",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-merge": "^4.1.1"
+  },
+  "dependencies": {
+    "vue": "^2.5.13",
+    "vue-router": "^3.0.1"
+  }
 }
