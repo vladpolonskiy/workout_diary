@@ -1,6 +1,13 @@
 <template>
   <div>
-    <h1 class="header">Workout diary</h1>
+    <nav class="header">
+      <router-link
+        class="link"
+        to="/">Workout diary</router-link>
+      <router-link
+        class="link"
+        to="/exercises">Exercises</router-link>
+    </nav>
     <router-view />
   </div>
 </template>
@@ -27,9 +34,15 @@ export default {
     line-height: 50px;
     padding: 0 15px;
     background: orange;
+    margin: 0 -10px;
+  }
+  .link {
+    text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
+    font-weight: 700;
     color: #FFF;
+    margin: 0 10px;
   }
 </style>
 
